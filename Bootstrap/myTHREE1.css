@@ -1,0 +1,142 @@
+.my-nav{
+    height: 70px !important;
+
+}
+
+.nav-link{
+    color:rgb(122, 236, 231) !important;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+}
+
+.navbar-brand{
+    color:powderblue !important;
+    font-size: 70px !important;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Brush Script MT;
+}
+
+
+.navbar-collapse{
+    background-color:#212529 !important;
+}
+
+
+.banner{
+    height: 700px;
+    background-color: white;
+    background-image: url(https://lh3.googleusercontent.com/seYsZUFgSxO6hPqBybsC4ZWQnUpnWhRNNtoovaD0U9tnacx4ndZxMoxesZCuQyY9p2iyj6JF2ZwRv7I5jsJJ0CcCmtIym_igqw=rj-nu-e365-w1200);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.banner-contrnt{
+
+    background-color: rgba(10, 1, 1, 0.7);
+    display: flex;
+    align-items: center;
+
+}
+.padd{
+    padding: 30px;
+}
+.banner_title{
+    font-size: 60px;
+    font-family:'Times New Roman';
+    color: white;
+
+}
+
+
+
+
+.menu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.title{
+    text-align: center;
+    font-family:Helvetica;
+    color: rgb(66, 153, 165);
+    font-weight: bold !important;
+}
+.my-card{
+    width: 400px !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px;
+
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.packages{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+.offer-bg{
+    background-color: rgb(255, 251, 246);
+}
+
+.map{
+    width: 100%;
+    height:300px ;
+}
+
+.banner-ad{
+    height: 700px;
+    background-image: url("https://koreaboo-cdn.storage.googleapis.com/2017/07/1200px-EXO_at_KBS_Open_Concert_on_June_21_2016.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+.ad-content{
+
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ad_title{
+    color:white;
+
+
+}
+
+
+@media(max-width:500px){
+
+    .banner-ad{
+        height: 500px;
+    }
+
+
+}
